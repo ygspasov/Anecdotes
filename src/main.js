@@ -7,5 +7,4 @@ new Vue({
   render: h => h(App)
 });
 
-// store.commit("ADD_ANECDOTE", "test anecdote");
-store.dispatch("commitAnecdote", "test anecdote");
+store.dispatch("initialAnecdotes");

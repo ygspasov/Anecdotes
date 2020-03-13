@@ -1,3 +1,7 @@
+div {
+    box-sizing: border-box;
+}
+
 #app {
     font-family: 'Avenir', Arial, sans-serif;
     text-align: center;
@@ -5,11 +9,15 @@
     margin-top: 60px;
 }
 
-.anecdote-card {
-    border: 2px solid #007BFF;
-    border-radius: 5px;
-    padding: 5px;
-    margin: 5px;
+.card {
+    min-height: 210px;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 button {

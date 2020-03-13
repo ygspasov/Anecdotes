@@ -1,10 +1,10 @@
-# joker
+# Anecdotes
 
-> An app for jokes
+> An app for anecdotes
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
