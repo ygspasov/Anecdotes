@@ -14,5 +14,11 @@ export default {
   },
   removeAnecdote({ commit }, index) {
     commit("REMOVE_ANECDOTE", index);
+  },
+  setIdToEdit({ commit }, id) {
+    commit("SET_ID_TO_EDIT", id);
+  },
+  editAnecdote({ commit }, { id, updatedAnecdote }) {
+    commit("EDIT_ANECDOTE", { id, updatedAnecdote });
   }
 };
