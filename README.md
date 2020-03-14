@@ -2,17 +2,6 @@
 
 > An app for anecdotes
 
-## Build Setup
+I created this apps for jokes, mainly to refresh and practice my Vuex and Vue Router knowledge/skills. The app allows you to display random jokes from a [jokes API](https://github.com/15Dkatz/official_joke_api), delete and edit existing jokes.
 
-```bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+![alt text](screenshots/anecdotes.jpg "Anecdotes")

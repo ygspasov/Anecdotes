@@ -1,12 +1,8 @@
 <template>
   <div id="app">
-    <h2>Got any anecdotes?</h2>
-    <button class="btn btn-secondary" @click="initialAnecdotes">
-      Display Ten Random Anecdotes
-    </button>
-    <button class="btn btn-secondary" @click="addRandomAnecdote">
-      Add Random Anecdote
-    </button>
+    <h2>Enjoy our anecdotes</h2>
+    <button class="btn btn-secondary" @click="initialAnecdotes">Display Ten Random Anecdotes</button>
+    <button class="btn btn-secondary" @click="addRandomAnecdote">Add Random Anecdote</button>
     <h4>Number of anecdotes on screen: {{ $store.state.anecdotes.length }}</h4>
 
     <div class="container">

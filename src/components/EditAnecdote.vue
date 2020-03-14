@@ -23,7 +23,6 @@
           </div>
           <button type="submit" class="btn btn-secondary" @click.prevent="updateAnecdote">Save</button>
         </form>
-        ID:{{$store.state.id}}
       </div>
     </div>
   </div>
